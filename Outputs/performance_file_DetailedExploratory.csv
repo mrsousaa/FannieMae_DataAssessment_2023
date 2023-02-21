@@ -1,0 +1,196 @@
+,Column,firingRate,uniqueCount,uniqueRate,Detailed_Summary
+LoanSeqNumber,LoanSeqNumber,1.0,386975,0.0386975,LoanSeqNumber: Categorical Column with 386975 groups
+MonthlyReportingPeriod,MonthlyReportingPeriod,1.0,75,7.5e-06,MonthlyReportingPeriod: Categorical Column with 75 groups
+CurrentActualUPB,CurrentActualUPB,0.0,0,0.0,"None    1.0
+Name: CurrentActualUPB, dtype: float64"
+CurrentLoanDelinquincyStatus,CurrentLoanDelinquincyStatus,1.0,69,6.9e-06,CurrentLoanDelinquincyStatus: Categorical Column with 69 groups
+LoanAge,LoanAge,1.0,75,7.5e-06,"count    1.000000e+07
+mean     1.519601e+01
+std      1.255933e+01
+min      0.000000e+00
+25%      6.000000e+00
+50%      1.300000e+01
+75%      2.100000e+01
+max      7.400000e+01
+Name: LoanAge, dtype: float64"
+RemainingMonthsToMaturity,RemainingMonthsToMaturity,1.0,395,3.95e-05,"count    1.000000e+07
+mean     2.943880e+02
+std      7.923852e+01
+min      3.700000e+01
+25%      2.220000e+02
+50%      3.390000e+02
+75%      3.510000e+02
+max      4.800000e+02
+Name: RemainingMonthsToMaturity, dtype: float64"
+DefectSettlementDate,DefectSettlementDate,8.209999999997386e-05,40,4e-06,DefectSettlementDate: Categorical Column with 40 groups
+ModificationFlag,ModificationFlag,0.0005838999999999706,2,2e-07,"None    0.999416
+P       0.000536
+Y       0.000048
+Name: ModificationFlag, dtype: float64"
+ZeroBalanceCode,ZeroBalanceCode,0.012910399999999989,6,6e-07,"None    9.870896e-01
+01      1.282530e-02
+96      8.200000e-05
+09      1.300000e-06
+15      9.000000e-07
+02      6.000000e-07
+03      3.000000e-07
+Name: ZeroBalanceCode, dtype: float64"
+ZeroBalanceEffectiveDate,ZeroBalanceEffectiveDate,0.012910399999999989,76,7.6e-06,ZeroBalanceEffectiveDate: Categorical Column with 76 groups
+CurrentInterestRate,CurrentInterestRate,1.0,1220,0.000122,"count    1.000000e+07
+mean     3.288762e+00
+std      4.500950e-01
+min      1.750000e+00
+25%      3.000000e+00
+50%      3.250000e+00
+75%      3.500000e+00
+max      6.625000e+00
+Name: CurrentInterestRate, dtype: float64"
+CurrentDeferredUPB,CurrentDeferredUPB,0.0,0,0.0,"None    1.0
+Name: CurrentDeferredUPB, dtype: float64"
+DDLPI,DDLPI,0.012479899999999988,108,1.08e-05,DDLPI: Categorical Column with 108 groups
+MI_Recoveries,MI_Recoveries,2.9999999999752447e-06,10,1e-06,"count       30.000000
+mean      9975.770000
+std      17304.806254
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%      18648.410000
+max      62467.170000
+Name: MI_Recoveries, dtype: float64"
+NetSaleProceeds,NetSaleProceeds,2.9999999999752447e-06,30,3e-06,NetSaleProceeds: Categorical Column with 30 groups
+NonMI_Recoveries,NonMI_Recoveries,2.9999999999752447e-06,15,1.5e-06,"count      30.000000
+mean      818.958667
+std      1623.085634
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%      1083.565000
+max      7618.160000
+Name: NonMI_Recoveries, dtype: float64"
+Expenses,Expenses,2.9999999999752447e-06,28,2.8e-06,"count       30.000000
+mean    -11388.478667
+std      12574.819947
+min     -40164.110000
+25%     -19576.210000
+50%      -6568.600000
+75%       -101.250000
+max          0.000000
+Name: Expenses, dtype: float64"
+LegalCosts,LegalCosts,2.9999999999752447e-06,19,1.9e-06,"count       30.000000
+mean     -3241.492333
+std       4255.139762
+min     -19481.840000
+25%      -6176.517500
+50%      -1926.180000
+75%          0.000000
+max          0.000000
+Name: LegalCosts, dtype: float64"
+MaintenanceAndPreservationCosts,MaintenanceAndPreservationCosts,2.9999999999752447e-06,21,2.1e-06,"count       30.000000
+mean     -4734.459000
+std       8348.006427
+min     -33302.860000
+25%      -5813.252500
+50%       -162.500000
+75%         -7.500000
+max          0.000000
+Name: MaintenanceAndPreservationCosts, dtype: float64"
+TaxesAndInsurance,TaxesAndInsurance,2.9999999999752447e-06,16,1.6e-06,"count       30.000000
+mean     -2592.022333
+std       3923.842855
+min     -16018.480000
+25%      -3969.490000
+50%       -393.920000
+75%          0.000000
+max          0.000000
+Name: TaxesAndInsurance, dtype: float64"
+MiscExpenses,MiscExpenses,2.9999999999752447e-06,24,2.4e-06,"count      30.000000
+mean     -820.505000
+std      1053.501324
+min     -4785.000000
+25%     -1086.975000
+50%      -589.665000
+75%       -85.000000
+max         4.500000
+Name: MiscExpenses, dtype: float64"
+ActualLossCalculation,ActualLossCalculation,2.9999999999752447e-06,30,3e-06,"count       30.000000
+mean    -15640.020000
+std      26995.344281
+min     -87220.390000
+25%     -32402.097500
+50%     -10806.365000
+75%       5491.810000
+max      18578.590000
+Name: ActualLossCalculation, dtype: float64"
+ModificationCost,ModificationCost,0.00035600000000002296,3413,0.0003413,"count     3560.000000
+mean       468.530284
+std        615.890801
+min      -2963.980000
+25%        150.337500
+50%        318.170000
+75%        589.620000
+max      12255.220000
+Name: ModificationCost, dtype: float64"
+StepModificationFlag,StepModificationFlag,4.7499999999978115e-05,1,1e-07,"None    0.999953
+N       0.000048
+Name: StepModificationFlag, dtype: float64"
+DeferredPaymentPlan,DeferredPaymentPlan,0.004147899999999982,2,2e-07,"None    0.995852
+P       0.003795
+Y       0.000353
+Name: DeferredPaymentPlan, dtype: float64"
+EstimatedLTV,EstimatedLTV,0.9780396,412,4.12e-05,"count    9.780396e+06
+mean     1.065101e+02
+std      2.097378e+02
+min      1.000000e+00
+25%      4.700000e+01
+50%      5.900000e+01
+75%      7.200000e+01
+max      9.990000e+02
+Name: EstimatedLTV, dtype: float64"
+ZeroBalanceRemovalUPB,ZeroBalanceRemovalUPB,0.012910399999999989,101259,0.0101259,"count    1.291040e+05
+mean     2.874217e+05
+std      1.425096e+05
+min      1.000000e-02
+25%      1.795430e+05
+50%      2.714216e+05
+75%      3.797757e+05
+max      1.377018e+06
+Name: ZeroBalanceRemovalUPB, dtype: float64"
+DelinquentAccruedInterest,DelinquentAccruedInterest,2.9999999999752447e-06,27,2.7e-06,"count       30.000000
+mean      5374.157000
+std       5694.136864
+min       -514.430000
+25%        787.800000
+50%       5060.540000
+75%       8127.980000
+max      26705.520000
+Name: DelinquentAccruedInterest, dtype: float64"
+DelinquencyDueToDisaster,DelinquencyDueToDisaster,0.004851500000000009,1,1e-07,"None    0.995148
+Y       0.004851
+Name: DelinquencyDueToDisaster, dtype: float64"
+BorrowerAssistanceStatusCode,BorrowerAssistanceStatusCode,0.005322599999999955,3,3e-07,"None    0.994677
+F       0.005007
+T       0.000246
+R       0.000070
+Name: BorrowerAssistanceStatusCode, dtype: float64"
+CurrentMonthModCost,CurrentMonthModCost,0.004695600000000022,4111,0.0004111,"count    46956.000000
+mean        35.521931
+std         53.717830
+min       -357.100000
+25%         10.390000
+50%         21.690000
+75%         44.790000
+max       5237.920000
+Name: CurrentMonthModCost, dtype: float64"
+InterestBearingUPB,InterestBearingUPB,1.0,5011478,0.5011478,"count    1.000000e+07
+mean     2.447105e+05
+std      1.292629e+05
+min      0.000000e+00
+25%      1.488922e+05
+50%      2.251325e+05
+75%      3.222614e+05
+max      1.460000e+06
+Name: InterestBearingUPB, dtype: float64"
+file,file,1.0,3,3e-07,"historical_data_time_2020Q2.txt    0.687239
+historical_data_time_2016Q3.txt    0.156708
+historical_data_time_2020Q3.txt    0.156053
+Name: file, dtype: float64"

@@ -1,0 +1,159 @@
+Column,firingRate,uniqueCount,uniqueRate,Detailed_Summary
+CreditScore,1.0,498,1.0961364009246108e-05,"count    4.543230e+07
+mean     7.578710e+02
+std      3.799151e+02
+min      3.000000e+02
+25%      7.090000e+02
+50%      7.530000e+02
+75%      7.840000e+02
+max      9.999000e+03
+Name: CreditScore, dtype: float64"
+FirstPaymentDate,1.0,287,6.3170913065334e-06,FirstPaymentDate: Categorical Column with 287 groups
+FirstTimeHomebuyerFlag,1.0,3,6.60323133087115e-08,"N    0.892735
+Y    0.106847
+9    0.000419
+Name: FirstTimeHomebuyerFlag, dtype: float64"
+MaturityDate,1.0,628,1.3822764252623606e-05,MaturityDate: Categorical Column with 628 groups
+MSA,0.7568864329172666,437,9.618706971968975e-06,"count    3.438709e+07
+mean     3.040496e+04
+std      1.131248e+04
+min      1.018000e+04
+25%      1.934000e+04
+50%      3.282000e+04
+75%      4.006000e+04
+max      4.974000e+04
+Name: MSA, dtype: float64"
+MortgageInsurancePerc,1.0,57,1.2546139528655184e-06,MortgageInsurancePerc: Categorical Column with 57 groups
+NumberOfUnits,1.0,5,1.1005385551451916e-07,"count    4.543230e+07
+mean     1.032741e+00
+std      7.588606e-01
+min      1.000000e+00
+25%      1.000000e+00
+50%      1.000000e+00
+75%      1.000000e+00
+max      9.900000e+01
+Name: NumberOfUnits, dtype: float64"
+OccupancyStatus,1.0,4,8.804308441161533e-08,"P    9.075887e-01
+I    5.507828e-02
+S    3.733298e-02
+9    2.201077e-08
+Name: OccupancyStatus, dtype: float64"
+OrigCLTV,1.0,667,1.4681184325636857e-05,"count    4.543230e+07
+mean     4.733726e+01
+std      3.012467e+01
+min      1.000000e+00
+25%      6.000000e+01
+50%      7.500000e+01
+75%      8.000000e+01
+max      9.990000e+02
+Name: OrigCLTV, dtype: float64"
+OrigDTI,1.0,66,1.4527108927916529e-06,"count    4.543230e+07
+mean     8.803133e+01
+std      2.425673e+02
+min      1.000000e+00
+25%      2.600000e+01
+50%      3.500000e+01
+75%      4.300000e+01
+max      9.990000e+02
+Name: OrigDTI, dtype: float64"
+OrigUPB,1.0,1374,3.0242799495389867e-05,"count    4.543230e+07
+mean     2.066779e+05
+std      1.235294e+05
+min      1.000000e+03
+25%      1.150000e+05
+50%      1.780000e+05
+75%      2.720000e+05
+max      1.867000e+06
+Name: OrigUPB, dtype: float64"
+OrigLTV,1.0,588,1.2942333408507453e-05,"count    4.543230e+07
+mean     4.729996e+01
+std      2.914795e+01
+min      1.000000e+00
+25%      6.000000e+01
+50%      7.500000e+01
+75%      8.000000e+01
+max      9.990000e+02
+Name: OrigLTV, dtype: float64"
+OrigInterestRate,0.9999999779892289,6278,0.00013818362098403026,"count    4.543230e+07
+mean     4.815206e+00
+std      1.408431e+00
+min      0.000000e+00
+25%      3.625000e+00
+50%      4.750000e+00
+75%      5.875000e+00
+max      1.395000e+01
+Name: OrigInterestRate, dtype: float64"
+Channel,1.0,5,1.1005385551451916e-07,"R    0.562578
+T    0.191635
+C    0.176260
+B    0.069487
+9    0.000040
+Name: Channel, dtype: float64"
+PPM_Flag,1.0,2,4.4021542205807667e-08,"N    0.998876
+Y    0.001124
+Name: PPM_Flag, dtype: float64"
+AmortizationType,1.0,1,2.2010771102903833e-08,"FRM    1.0
+Name: AmortizationType, dtype: float64"
+PropertyState,0.9999999779892289,54,1.188581639556807e-06,PropertyState: Categorical Column with 54 groups
+PropertyType,1.0,6,1.32064626617423e-07,"SF    0.728961
+PU    0.194945
+CO    0.069217
+MH    0.005007
+CP    0.001828
+99    0.000041
+Name: PropertyType, dtype: float64"
+PostalCode,1.0,934,2.055806021011218e-05,"count    4.543230e+07
+mean     5.340786e+04
+std      2.960932e+04
+min      0.000000e+00
+25%      2.960000e+04
+50%      5.270000e+04
+75%      8.080000e+04
+max      9.990000e+04
+Name: PostalCode, dtype: float64"
+LoanSeqNumber,1.0,45432302,1.0,LoanSeqNumber: Categorical Column with 45432302 groups
+LoanPurpose,1.0,4,8.804308441161533e-08,"N    0.407867
+P    0.338277
+C    0.253855
+9    0.000001
+Name: LoanPurpose, dtype: float64"
+OrigLoanTerms,0.9999999779892289,408,8.980394609984763e-06,"count    4.543230e+07
+mean     3.077917e+02
+std      8.024744e+01
+min     -8.000000e+00
+25%      2.400000e+02
+50%      3.600000e+02
+75%      3.600000e+02
+max      6.690000e+02
+Name: OrigLoanTerms, dtype: float64"
+NumBorrowers,1.0,7,1.5407539772032682e-07,"count    4.543230e+07
+mean     1.580382e+00
+std      1.304902e+00
+min      1.000000e+00
+25%      1.000000e+00
+50%      2.000000e+00
+75%      2.000000e+00
+max      9.900000e+01
+Name: NumBorrowers, dtype: float64"
+SellerName,1.0,105,2.3111309658049026e-06,SellerName: Categorical Column with 105 groups
+ServicerName,1.0,82,1.8048832304381143e-06,ServicerName: Categorical Column with 82 groups
+SuperConformingFlag,0.020310681153686616,1,2.2010771102903833e-08,"None    0.979689
+Y       0.020311
+Name: SuperConformingFlag, dtype: float64"
+PreHarpLoanSeqNum,0.06307393360785463,2864907,0.06305881220810691,PreHarpLoanSeqNum: Categorical Column with 2864907 groups
+ProgramIndicator,1.0,4,8.804308441161533e-08,"9    0.982608
+H    0.016197
+F    0.001172
+R    0.000023
+Name: ProgramIndicator, dtype: float64"
+HarpIndicator,0.06307393360785463,1,2.2010771102903833e-08,"None    0.936926
+Y       0.063074
+Name: HarpIndicator, dtype: float64"
+PropertyValuationMethod,1.0,4,8.804308441161533e-08,"9    0.703441
+2    0.210449
+1    0.080100
+3    0.006010
+Name: PropertyValuationMethod, dtype: float64"
+InterestOnlyIndicator,1.0,1,2.2010771102903833e-08,"N    1.0
+Name: InterestOnlyIndicator, dtype: float64"
+file,1.0,94,2.06901248367296e-06,file: Categorical Column with 94 groups
